@@ -88,7 +88,6 @@ int main(int argc, char const *argv[])
                             printf("File \"%s\" was moved\n", event -> name);
                         }
                     }
-                
                 i += MONITOR_EVENT_SIZE + event -> len;
             }
         }    
